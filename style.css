@@ -1,0 +1,90 @@
+/* This is the CSS code for the calendar */
+
+/* Style the calendar container */
+#calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the calendar heading */
+#calendar-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the calendar dates container */
+#calendar-dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Style the calendar dates */
+.calendar-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 7);
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* Style the Previous button */
+  /* Style the Previous button */
+  #previous-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+
+  /* Style the Next button */
+  #next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+
+  /* Style the fire emoji background */
+  .fire {
+    background-color: yellow;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
