@@ -23,9 +23,12 @@ let year = new Date().getFullYear();
 function renderCalendar() {
     // Clear the calendar dates container
     calendarDates.innerHTML = "";
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
 
     // Set the calendar heading to show the current month and year
-    calendarHeading.innerText = `${month + 1}/${year}`;
+    calendarHeading.innerText = `${monthNames[month]} ${year}`;
 
     // Get the number of days in the current month
     const daysInMonth = new Date(year, month + 1, 0).getDate();
