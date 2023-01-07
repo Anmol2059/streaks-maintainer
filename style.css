@@ -147,3 +147,53 @@
 ::-webkit-scrollbar-thumb:hover {
   background: cream;
 }
+@media only screen and (max-width: 480px) {
+  /* Add styles for small screens here */
+  .nav-text {
+    font-size: 18px;
+  }
+  .top-text {
+    font-size: 18px;
+  }
+  #calendar {
+    width: 90%;
+  }
+  #calendar-heading {
+    font-size: 18px;
+  }
+  .calendar-date {
+    width: calc(100% / 7);
+    height: 40px;
+    font-size: 14px;
+  }
+  #previous-button,
+  #next-button {
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Add styles for tablets here */
+  .nav-text {
+    font-size: 20px;
+  }
+  .top-text {
+    font-size: 20px;
+  }
+  #calendar {
+    width: 80%;
+  }
+  #calendar-heading {
+    font-size: 20px;
+  }
+  .calendar-date {
+    width: calc(100% / 7);
+    height: 45px;
+    font-size: 16px;
+  }
+  #previous-button,
+  #next-button {
+    width: 50%;
+    font-size: 14px;
+  }
+}
